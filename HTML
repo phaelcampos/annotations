@@ -1,0 +1,72 @@
+HTML annotations
+
+</dl><h1>texto</h1></dl>
+Adiciona um texto a tela, tendo possibilidade de mudar o tamanho, sendo h1 o maior  e h6 o menor.
+__________________________
+<p>texto</p>
+
+Adiciona um paragrafo ao corpo do texto.
+Podendo ter mais de uma linha ou não.
+__________________________
+<!-- texto --> 
+
+É um comentário de múltiplas linhas.
+__________________________
+<img src="link" alt="descrição do vídeo">
+
+Adiciona uma imagem ao site, o src pode set tanto um link, quanto um redirecionamento para um arquivo do computador, alt é uma descrição da imagem utilizada em leitores digitais, e ajuda na acessibilidade.
+___________________________
+<a href="link">texto</a>
+<a href="#id">texto</a>
+<a href="link ou #id" "target=_blank">texto</a>*¹
+<a href="link ou #id"><img src="link" alt="texto"></a>*²
+<a href="#">texto</a>*³
+
+Adiciona um texto que redireciona para o site ao ser clicado.
+Pode ser usado também como ancora para alguma parte do site utilizando o sinal # e o id.,
+Pode ser utilizado dentro de uma tag <p> utilizando os mesmos parâmetros.
+*¹ Abre o link em uma outra aba
+*² Imagens podem ser utilizadas como item clicável
+*³ Para um link morto (deadlink)
+___________________________
+<ul>                   |  <ol>
+	<li></li>     |          <li></li>
+</ul>                  |  <ol>
+
+Ul é uma lista desorganizada, geralmente apresentada como pontos.
+Ol é uma lista organizada onde os itens são agonizados numericamente.
+Li pode ser um ou mais itens da lista organizada ou desorganizada.
+____________________________
+<input type="text">
+<input type="password">
+<input type="date">
+<input type="radio">
+da<input type="text" placeholder="this is placeholder text">
+
+Input é um campo onde o usuário pode inserir dados.
+Placeholder é utilizado para escrever algo dentro do campo para informar ao usuário o que deve ser colocado na caixa de texto.
+_____________________________
+<form action="Url para enviar ao servido"></form>
+<button type="submit">texto</button>
+<input type="text" placeholder="texto" required>
+
+Form é um formulário que pode ser utilizado para enviar dados ao banco de dados.
+Button pode ser utilizado para concretizar o envio dos dados para o servidor.
+Required é utilizado para colocar o campo como obrigatório
+_____________________________
+   <label for="indoor">
+      <input id="indoor" type="radio" name="indoor-outdoor">indor
+   </label>
+ <label for="lazy">
+<input id="lazy" type="checkbox"  name="personality" value="lazy"> Lazy
+</label>
+Colocar Checked ao fim dos inputs faz com que eles venham marcados por padrão
+
+Label insere um texto para o id referenciado
+Input type é utilizado quando você precisa colocar uma ou mais opçoes para o usuario.
+Type checkbox é utilizado para um ou mais itens checado
+_____________________________
+<div>
+</div>
+
+Div é utilizado para fazer uma divisão no site

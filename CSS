@@ -1,0 +1,68 @@
+citando a tag html, ira modificar todas que foram citadas:
+
+h1{
+  color: red;
+}
+________________________
+
+adicionando um nome de classe a tag, é possivel  modificar ela citando ela no css com .:
+
+(class="blue-text")
+
+.blue-text {
+  color: blue;
+}
+
+Para mudar o ID de uma tag:
+(id="cat-photo-element")
+#cat-photo-element {
+  background-color: green;
+}
+________________________
+
+Tamanho da fonte:
+
+h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+________________________
+
+Para importar alguma fonte é necessario fazer um link com referência a ela:
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+h1{
+  font-family: FAMILY_NAME, GENERIC_NAME*;
+}
+*GENERIC_NAME é usado caso a fonte importada não estiver disponivel
+________________________
+
+Para mudar o tamanho de imagens é possivel utilizar widht e height:
+
+.larger-image {
+  width: 500px;
+  height:500px;
+}
+________________________
+
+Para mudar a borda da imagem é possivel utilizar:
+.thin-red-border {
+  border-color: red;
+  border-width: 5px;
+  border-style: solid;
+  border-radius:10px ou %;
+}
+________________________
+Para mudar o fundo de um div:
+
+.green-background {
+  background-color: green;
+}
+________________________
+Para mudar o preenchimento e a margem de um div:
+div{
+  margin: 10px;
+  padding: 20px;
+}
+*Adicionando uma margem negativa, caso esteja dentro de outro div, ele quebra a "barreira" do div.
+________________________
